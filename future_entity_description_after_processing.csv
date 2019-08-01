@@ -1,0 +1,406 @@
+CVE-2018-14767,kamailio x craft sip messag doubl header empti tag caus segment fault crash reason miss input valid build res buf sip req core function could result denial servic potenti execut arbitrari code
+CVE-2018-14734,driver infiniband core ucma c linux kernel allow ucma leav multicast access certain data structur cleanup step ucma process join allow attack caus denial servic use free
+CVE-2018-14682,issu discov mspack chmd c libmspack alpha one error tolow macro chm decompress
+CVE-2018-14681,issu discov kwajd read header mspack kwajd c libmspack alpha bad kwaj file header extens could caus one two byte overwrit
+CVE-2018-14680,issu discov mspack chmd c libmspack alpha reject blank chm filenam
+CVE-2018-14679,issu discov mspack chmd c libmspack alpha one error chm pmgi pmgl chunk number valid check could lead denial servic uniniti data derefer applic crash
+CVE-2018-14432,feder compon openstack keyston authent get v os feder project request may bypass intend access restrict list project authent user may discov project author access leak project deploy attribut keyston v os feder endpoint enabl via polici json affect
+CVE-2018-10906,fuse version x fusermount vulner restrict bypass selinux activ allow non root user mount fuse file system allow mount option regardless whether user allow set fuse configur attack may use flaw mount fuse file system access user trick access file file system possibl caus denial servic unspecifi effect
+CVE-2018-10903,flaw found python cryptographi version final tag api enforc minimum tag length user valid input length prior pass final tag attack could craft invalid payload shorten tag e g byte would chanc pass mac check gcm tag forgeri caus key leakag
+CVE-2018-10900,network manag vpnc plugin aka networkmanag vpnc version vulner privileg escal attack new line charact use inject password helper paramet configur data pass vpnc allow attack execut arbitrari command root
+CVE-2018-10883,flaw found linux kernel ext filesystem local user caus bound write jbd journal dirti metadata denial servic system crash mount oper craft ext filesystem imag
+CVE-2018-8020,apach tomcat nativ flaw proper check ocsp pre produc respons list multipl entri certif status subsequ revok client certif may proper identifi allow user authent revok certif connect requir mutual tls user use ocsp check affect vulner
+CVE-2018-8019,use ocsp respond apach tomcat nativ correct handl invalid respons allow revok client certif incorrect identifi therefor possibl user authent revok certif use mutual tls user use ocsp check affect vulner
+CVE-2017-18344,timer creat syscal implement kernel time posix timer c linux kernel proper valid sigev sigev notifi field lead bound access show timer function call proc pid timer read allow userspac applic read arbitrari kernel memori kernel built config posix timer config checkpoint restor
+CVE-2017-15120,issu found pars authorit answer powerdn recursor lead null pointer derefer pars special craft answer contain cname differ class unauthent remot attack could caus denial servic
+CVE-2017-15119,network block devic nbd server quick emul qemu vulner denial servic issu could occur client sent larg option request make server wast cpu time read gb per request client could use flaw keep nbd server serv request result dos
+CVE-2017-15118,stack base buffer overflow vulner found nbd server implement qemu allow client request export name size byte fact limit byte caus bound stack write qemu process nbd server requir tls attack cannot trigger buffer overflow without first success negoti tls
+CVE-2017-15101,miss patch stack base buffer overflow findtabl found red hat version libloui attack could caus denial servic condit potenti even arbitrari code execut
+CVE-2017-15097,privileg escal flaw found red hat initi script postgresql attack access postgr user account could use flaw obtain root access server machin
+CVE-2017-12173,found sssd sysdb search user upn res function sanit request queri local cach vulner inject central login environ password hash local cach given user authent attack could use flaw retriev
+CVE-2017-12163,inform leak flaw found way smb protocol implement samba x x malici client could use flaw dump server memori content file samba share share printer though exact area server memori cannot control attack
+CVE-2017-7558,kernel data leak due bound read found linux kernel inet diag msg sctp l addr fill sctp get sctp info function present sinc version rc version data leak happen function fill sockaddr data structur use export socket diagnost inform result byte slab data could leak userspac
+CVE-2017-7537,found mock cmc authent plugin hardcod secret accident enabl default pki core packag attack could potenti use flaw bypass regular authent process trick ca server issu certif
+CVE-2017-7482,linux kernel version kerbero ticket decod use rxrpc key incorrect assum size field could lead size remain variabl wrap data pointer go end buffer could possibl lead memori corrupt possibl privileg escal
+CVE-2017-3224,open shortest path first ospf protocol implement may improp determin link state advertis lsa recenc lsas maxsequencenumb accord rfc section two instanc lsa recenc determin first compar sequenc number checksum final maxag case sequenc number lsa larger checksum consid recent flush link state databas lsdb sinc rfc explicit state valu link carri lsa must prematur age self origin lsa maxsequencenumb possibl vulner ospf implement attack craft lsa maxsequencenumb invalid link result larger checksum thus newer lsa flush lsdb propag craft lsa result erasur alter rout tabl router within rout domain creat denial servic condit rout traffic network cve reserv quagga downstream implement suse opensus red hat packag
+CVE-2017-2666,discov undertow code pars http request line permit invalid charact could exploit conjunct proxi also permit invalid charact differ interpret inject data http respons manipul http respons attack could poison web cach perform xss attack obtain sensit inform request
+CVE-2017-2640,bound write flaw found way pidgin process xml content malici remot server could potenti use flaw crash pidgin execut arbitrari code context pidgin process
+CVE-2017-2634,found linux kernel datagram congest control protocol dccp implement use ipv inet sk rebuild header function ipv ipv dccp connect could result memori corrupt remot attack could use flaw crash system
+CVE-2017-2633,bound memori access issu found quick emul qemu vnc display driver flaw could occur refresh vnc display surfac area vnc refresh server surfac user insid guest could use flaw crash qemu process
+CVE-2017-2626,discov libic use weak entropi generat key local attack could potenti use flaw session hijack use inform avail process list
+CVE-2017-2624,found xorg x server includ use memcmp check receiv mit cooki seri valid cooki cooki correct allow attach xorg session sinc memcmp implement return invalid byte seen caus time differ valid invalid byte could allow effici brute forc attack
+CVE-2017-2623,discov rpm ostre rpm ostre client fail proper check gpg signatur packag layer packag unsign bad sign content could fail reject expect issu partial mitig rhel atom host certif pin use default
+CVE-2016-9597,found red hat jboss core servic erratum rhsa cve actual includ fix issu found libxml make vulner denial servic attack due stack overflow regress cve issu cve
+CVE-2016-9578,vulner discov spice server protocol handl attack abl connect spice server could send craft messag would caus process crash
+CVE-2016-9577,vulner discov spice server protocol handl authent attack could send craft messag spice server caus heap overflow lead crash possibl code execut
+CVE-2016-8626,flaw found red hat ceph way ceph object gateway handl post object request permit authent attack launch denial servic attack send null special craft post object request
+CVE-2015-9261,huft build archiv libarch decompress gunzip c busybox misus pointer caus segfault applic crash unzip oper special craft zip file
+CVE-2018-1000637,zutil version prior version pre contain buffer overflow vulner zcat result potenti denial servic arbitrari code execut attack appear exploit via victim open craft compress file vulner appear fix pre
+CVE-2018-1000632,domj version prior version contain cwe xml inject vulner class element method addel addattribut result attack tamper xml document xml inject attack appear exploit via attack specifi attribut element xml document vulner appear fix later
+CVE-2018-1000222,libgd version contain doubl free vulner vulner gdimagebmpptr function result remot code execut attack appear exploit via special craft jpeg imag trigger doubl free vulner appear fix commit acbdfdbadcfbecbcf
+CVE-2018-16276,issu discov yurex read driver usb misc yurex c linux kernel local attack could use user access read write incorrect bound check yurex usb driver crash kernel potenti escal privileg
+CVE-2018-16140,buffer underwrit vulner get line read c figdev a allow attack write prior begin buffer via craft fig file
+CVE-2018-16058,wireshark bluetooth avdtp dissector could crash address epan dissector packet btavdtp c proper initi data structur
+CVE-2018-16057,wireshark radiotap dissector could crash address epan dissector packet ieee radiotap iter c valid iter oper
+CVE-2018-16056,wireshark bluetooth attribut protocol dissector could crash address epan dissector packet btatt c verifi dissector specif uuid exist
+CVE-2018-15911,artifex ghostscript attack abl suppli craft postscript could use uniniti memori access aesdecod oper crash interpret potenti execut code
+CVE-2018-15910,artifex ghostscript attack abl suppli craft postscript file could use type confus lockdistillerparam paramet crash interpret execut code
+CVE-2018-15909,artifex ghostscript type confus use shfill oper could use attack abl suppli craft postscript file crash interpret potenti execut code
+CVE-2018-15864,uncheck null pointer usag resolv keysym xkbcomp parser xkbcommon could use local attack crash null pointer derefer xkbcommon parser suppli craft keymap file map access attempt occur map never creat
+CVE-2018-15863,uncheck null pointer usag resolvestateandpred xkbcomp compat c xkbcommon could use local attack crash null pointer derefer xkbcommon parser suppli craft keymap file op modmask express
+CVE-2018-15862,uncheck null pointer usag lookupmodmask xkbcomp expr c xkbcommon could use local attack crash null pointer derefer xkbcommon parser suppli craft keymap file invalid virtual modifi
+CVE-2018-15861,uncheck null pointer usag exprresolvelh xkbcomp expr c xkbcommon could use local attack crash null pointer derefer xkbcommon parser suppli craft keymap file trigger xkb intern atom failur
+CVE-2018-15859,uncheck null pointer usag pars invalid atom exprresolvelh xkbcomp expr c xkbcommon could use local attack crash null pointer derefer xkbcommon parser suppli craft keymap file lookup failur mishandl
+CVE-2018-15858,uncheck null pointer usag handl invalid alias copykeyaliasestokeymap xkbcomp keycod c xkbcommon could use local attack crash null pointer derefer xkbcommon parser suppli craft keymap file
+CVE-2018-15857,invalid free exprappendmultikeysymlist xkbcomp ast build c xkbcommon could use local attack crash xkbcommon keymap parser possibl unspecifi impact suppli craft keymap file
+CVE-2018-15855,uncheck null pointer usag xkbcommon could use local attack crash null pointer derefer xkbcommon parser suppli craft keymap file xkbfile xkb geometri section mishandl
+CVE-2018-15854,uncheck null pointer usag xkbcommon could use local attack crash null pointer derefer xkbcommon parser suppli craft keymap file geometri token desupport incorrect
+CVE-2018-15599,recv msg userauth request function svr auth c dropbear prone user enumer vulner usernam valid affect field ssh msg userauth messag handl similar issu cve unrel codebas
+CVE-2018-15501,ng pkt transport smart pkt c libgit x remot attack send craft smart protocol ng packet lack byte trigger bound read lead dos
+CVE-2018-15494,dojo toolkit unescap string inject dojox grid datagrid
+CVE-2018-15473,openssh prone user enumer vulner due delay bailout invalid authent user packet contain request fulli pars relat auth gss c auth hostbas c auth pubkey c
+CVE-2018-15471,issu discov xenvif set hash map driver net xen netback hash c linux kernel use xen x product linux netback driver allow frontend control map request request queue process request set chang map input valid e g integ overflow miss flaw lead oob access hash handl malici buggi frontend may caus usual privileg backend make bound memori access potenti result one privileg escal denial servic dos inform leak
+CVE-2018-15120,libpango pango use hexchat product allow remot attack caus denial servic applic crash possibl unspecifi impact via craft text invalid unicod sequenc
+CVE-2018-14912,cgit clone object cgit directori travers vulner enabl http clone turn demonstr cgit cgit cgi git object path request
+CVE-2018-14883,issu discov php x x x integ overflow lead heap base buffer read exif thumbnail extract exif c
+CVE-2018-14851,exif process ifd makernot ext exif exif c php x x x allow remot attack caus denial servic bound read applic crash via craft jpeg file
+CVE-2018-14622,null pointer derefer vulner found libtirpc version rc return valu makefd xprt check instanc could lead crash server exhaust maximum number avail file descriptor remot attack could caus rpc base applic crash flood new connect
+CVE-2018-14619,flaw found crypto subsystem linux kernel version kernel rc null skcipher drop af alg ctx freed instead aead tfm freed caus null skcipher freed still use lead local user abl crash system possibl escal privileg
+CVE-2018-14600,issu discov libx function xlistextens listext c interpret variabl sign instead unsign result bound write byte lead dos remot code execut
+CVE-2018-14599,issu discov libx function xlistextens listext c vulner one error caus malici server respons lead dos possibl unspecifi impact
+CVE-2018-14598,issu discov xlistextens listext c libx malici server send repli first string overflow caus variabl set null freed later lead dos segment fault
+CVE-2018-14574,django middlewar common commonmiddlewar django x x open redirect
+CVE-2018-14567,libxml lzma use allow remot attack caus denial servic infinit loop via craft xml file trigger lzma memlimit error demonstr xmllint differ vulner cve cve
+CVE-2018-14348,libcgroup includ creat var log cgred mode regardless configur umask lead disclosur inform
+CVE-2018-12827,adob flash player earlier bound read vulner success exploit could lead inform disclosur
+CVE-2018-12826,adob flash player earlier bound read vulner success exploit could lead inform disclosur
+CVE-2018-12824,adob flash player earlier bound read vulner success exploit could lead inform disclosur
+CVE-2018-10936,weak found postgresql jdbc version possibl provid ssl factori check host name host name verifi provid driver could lead condit man middl attack could masquerad trust server provid certif wrong host long sign trust ca
+CVE-2018-10925,discov postgresql version fail proper check author certain statement involv insert conflict updat attack creat tabl privileg could exploit read arbitrari byte server memori attack also certain insert limit updat privileg particular tabl could exploit updat column tabl
+CVE-2018-10919,samba activ directori ldap server vulner inform disclosur flaw miss access control check authent attack could use flaw extract confidenti attribut valu use ldap search express samba version vulner
+CVE-2018-10918,null pointer derefer flaw found way samba check databas output ldb databas layer authent attack could use flaw crash samba server activ directori domain control configur samba version vulner
+CVE-2018-10916,discov lftp includ version proper sanit remot file name lead loss integr local system revers mirror use remot attack may trick user use revers mirror attack control ftp server result remov file current work directori victim system
+CVE-2018-10915,vulner found libpq default postgresql client librari libpq fail proper reset intern state connect affect version libpq use host hostaddr connect paramet untrust input attack could bypass client side connect secur featur obtain access higher privileg connect potenti caus impact sql inject caus pqescap function malfunct postgresql version affect
+CVE-2018-10902,found raw midi kernel driver protect concurr access lead doubl realloc doubl free snd rawmidi input param snd rawmidi output status part snd rawmidi ioctl handler rawmidi c file malici local attack could possibl use privileg escal
+CVE-2018-10897,directori travers issu found reposync part yum util reposync fail sanit path remot repositori configur file attack control repositori may abl copi file outsid destin directori target system via path travers reposync run heighten privileg target system flaw could potenti result system compromis via overwrit critic system file version older believ affect
+CVE-2018-10858,heap buffer overflow found way samba client process extra long filenam directori list malici samba server could use flaw caus arbitrari code execut samba client samba version vulner
+CVE-2018-8040,page render use esi plugin access cooki header plugin configur allow access affect apach traffic server at version resolv issu user run x upgrad later version x user upgrad later version
+CVE-2018-8037,async request complet applic time contain trigger async timeout race condit exist could result user see respons intend differ user addit issu present nio nio connector correct track closur connect async request complet applic time contain time could also result user see respons intend anoth user version affect apach tomcat m
+CVE-2018-8034,host name verif use tls websocket client miss enabl default version affect apach tomcat m rc
+CVE-2018-8004,multipl http smuggl cach poison issu client make malici request interact apach traffic server at affect version resolv issu user run x upgrad later version x user upgrad later version
+CVE-2018-7073,local arbitrari file modif vulner identifi hpe moonshot provis manag prior v
+CVE-2018-6557,motd updat script base file packag ubuntu lts ubuntu ubuntu ubuntu incorrect handl temporari file local attack could use issu caus denial servic possibl escal privileg kernel symlink restrict disabl
+CVE-2018-5995,pcpu emb first chunk function mm percpu c linux kernel allow local user obtain sensit address inform read dmesg data page cpu printk call
+CVE-2018-5953,swiotlb print info function lib swiotlb c linux kernel allow local user obtain sensit address inform read dmesg data softwar io tlb printk call
+CVE-2018-5390,linux kernel version forc make expens call tcp collaps ofo queue tcp prune ofo queue everi incom packet lead denial servic
+CVE-2018-1656,ibm java runtim environ diagnost tool framework java dtfj ibm sdk java technolog edit protect path travers attack extract compress dump file ibm x forc id
+CVE-2018-1517,flaw java math compon ibm sdk java technolog edit may allow attack inflict denial servic attack special craft string data ibm x forc id
+CVE-2018-1336,improp hand overflow utf decod supplementari charact lead infinit loop decod caus denial servic version affect apach tomcat m rc
+CVE-2018-1318,ad method acl remap config caus segfault user make care craft request affect version apach traffic server at resolv issu user run x upgrad later version x user upgrad later version
+CVE-2017-16790,issu discov symfoni beta beta form submit user request handler class form compon merg post data upload file data one array big array form data bound form stage differ anymor submit post data upload file user send craft http request valu filetyp sent normal post data could interpret local file path server side exampl file etc passwd applic perform addit check valu submit filetyp content given file server could expos attack
+CVE-2017-16654,issu discov symfoni beta beta intl compon includ various bundl reader use read resourc bundl local filesystem read method class use path local determin languag bundl retriev local argument valu common retriev untrust user input like url paramet attack use argument navig arbitrari directori via dot dot slash attack aka directori travers
+CVE-2017-15429,inappropri implement v webassembl js bind googl chrome prior allow remot attack inject arbitrari script html uxss via craft html page
+CVE-2017-15427,insuffici polici enforc omnibox googl chrome prior allow social engin user xss drag drop javascript url url bar
+CVE-2017-15426,insuffici polici enforc omnibox googl chrome prior allow remot attack perform domain spoof via idn homograph craft domain name
+CVE-2017-15425,insuffici polici enforc omnibox googl chrome prior allow remot attack perform domain spoof via idn homograph craft domain name
+CVE-2017-15424,insuffici polici enforc omnibox googl chrome prior allow remot attack perform domain spoof via idn homograph craft domain name
+CVE-2017-15422,integ overflow intern date handl intern compon unicod icu c c use v googl chrome prior product allow remot attack perform bound memori read via craft html page
+CVE-2017-15420,inappropri implement browser navig googl chrome prior allow remot attack spoof content omnibox url bar via craft html page
+CVE-2017-15419,insuffici polici enforc resourc time api googl chrome prior allow remot attack infer brows histori trigger leak cross origin url via craft html page
+CVE-2017-15418,use uniniti memori skia googl chrome prior allow remot attack obtain potenti sensit inform process memori via craft html page
+CVE-2017-15417,inappropri implement skia canva composit oper googl chrome prior allow remot attack leak cross origin data via craft html page
+CVE-2017-15416,heap buffer overflow blob api googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page aka blink bound read
+CVE-2017-15415,incorrect serial ipc googl chrome prior allow remot attack leak valu pointer via craft html page
+CVE-2017-15413,type confus webassembl v googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2017-15412,use free libxml use googl chrome prior product allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2017-15411,use free pdfium googl chrome prior allow remot attack potenti exploit heap corrupt via craft pdf file
+CVE-2017-15410,use free pdfium googl chrome prior allow remot attack potenti exploit heap corrupt via craft pdf file
+CVE-2017-15409,heap buffer overflow skia googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2017-15408,heap buffer overflow omnibox googl chrome prior allow remot attack potenti exploit heap corrupt via craft pdf file mishandl pdfium
+CVE-2017-15407,bound write quic network stack googl chrome prior allow remot attack gain code execut via malici server
+CVE-2017-15399,use free v googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2017-15398,stack buffer overflow quic network stack googl chrome prior allow remot attack gain code execut via malici server
+CVE-2017-15396,stack buffer overflow numberingsystem intern compon unicod icu c c use v googl chrome prior product allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2016-9583,bound heap read vulner found jpc pi nextpcrl function jasper process craft input
+CVE-2016-9579,flaw found way ceph object gateway would process cross origin http request cor polici set allow origin bucket remot unauthent attack could use flaw caus denial servic send special craft cross origin http request ceph branch x x affect
+CVE-2016-9573,bound read vulner found openjpeg jk imag tool convert special craft jpeg file anoth format could caus applic crash potenti disclos data heap
+CVE-2016-9572,null pointer derefer flaw found way openjpeg decod certain input imag due logic error code respons decod input imag applic use openjpeg process imag data could crash process craft imag
+CVE-2016-8654,heap buffer overflow vulner found qmfb code jpc codec caus buffer alloc small size jasper version affect
+CVE-2015-9262,xcursorthemeinherit librari c libxcursor allow remot attack caus denial servic potenti code execut via one byte heap overflow
+CVE-2015-5160,libvirt includ ceph credenti qemu command line use rado block devic aka rbd allow local user obtain sensit inform via process list
+CVE-2018-1000802,python softwar foundat python cpython version contain cwe improp neutral special element use command command inject vulner shutil modul make archiv function result denial servic inform gain via inject arbitrari file system entir drive attack appear exploit via passag unfilt user input function vulner appear fix commit addaebabffceac
+CVE-2018-1000801,okular version earlier contain directori travers vulner function unpackdocumentarch core document cpp result arbitrari file creation user workstat attack appear exploit via victim must open special craft okular archiv issu appear correct version
+CVE-2018-1000671,sympa version later contain cwe url redirect untrust site open redirect vulner refer paramet wwsympa fcgi login action result open redirect reflect xss via data uri attack appear exploit via victim browser must follow url suppli attack vulner appear fix none avail
+CVE-2018-17407,issu discov t check unusu charstr function writet c file tex live buffer overflow handl type font allow arbitrari code execut malici font load one vulner tool pdflatex pdftex dvip luatex
+CVE-2018-17336,udisk format string vulner udisk log udiskslog c allow attack obtain sensit inform stack content caus denial servic memori corrupt possibl unspecifi impact via malform filesystem label demonstr n substr
+CVE-2018-17294,matchcurrentinput function insid lou translatestr c libloui prior check input string length allow attack caus denial servic applic crash via bound read craft input file certain translat dictionari
+CVE-2018-17183,artifex ghostscript allow user writabl error except tabl could use remot attack abl suppli craft postscript potenti overwrit replac error handler inject code
+CVE-2018-17182,issu discov linux kernel vmacach flush function mm vmacach c mishandl sequenc number overflow attack trigger use free possibl gain privileg via certain thread creation map unmap invalid derefer oper
+CVE-2018-17141,hylafax hylafax allow remot attack execut arbitrari code via dial session provid fax page jpeg bit enabl mishandl faxmodem writeecmdata faxd copyqu c file
+CVE-2018-17101,issu discov libtiff two bound write cptag tool tiffbw c tool palrgb c caus denial servic applic crash possibl unspecifi impact via craft imag file
+CVE-2018-17100,issu discov libtiff int overflow multipli ms tool ppmtiff c caus denial servic crash possibl unspecifi impact via craft imag file
+CVE-2018-17082,apache compon php x x x allow xss via bodi transfer encod chunk request bucket brigad mishandl php handler function sapi apachehandl sapi apache c
+CVE-2018-16949,issu discov openaf x sever data type use rpc input variabl implement unbound array type limit inher bit length field gb unauthent attack could send claim send larg input valu consum server resourc wait input deni servic valid connect
+CVE-2018-16948,issu discov openaf x sever rpc server routin fulli initi output variabl return leak memori content stack heap openaf cach manag function rx server afscb servic client also suscept inform leakag exampl rxafscb tellmeaboutyourself leak kernel memori kam listentri leak kaserv memori
+CVE-2018-16749,imagemagick earlier miss null check readonejngimag coder png c allow attack caus denial servic writeblob assert failur applic exit via craft file
+CVE-2018-16741,issu discov mgetti fax faxq helper c function activ proper sanit shell metacharact prevent command inject possibl use charact within file creat faxq helper activ jobid command
+CVE-2018-16658,issu discov linux kernel inform leak cdrom ioctl drive status driver cdrom cdrom c could use local attack read kernel memori cast unsign long int interfer bound check similar cve
+CVE-2018-16657,kamailio x craft sip messag invalid via header caus segment fault crash kamailio reason miss input valid crcitt string array core function calcul crc hash tag addit error present check via address core function function also miss input valid could result denial servic potenti execut arbitrari code
+CVE-2018-16644,miss check length function readdcmimag coder dcm c readpictimag coder pict c imagemagick allow remot attack caus denial servic via craft imag
+CVE-2018-16643,function readdcmimag coder dcm c readpwpimag coder pwp c readcalsimag coder cal c readpictimag coder pict c imagemagick check return valu fputc function allow remot attack caus denial servic via craft imag file
+CVE-2018-16642,function insertrow coder cut c imagemagick allow remot attack caus denial servic via craft imag file due bound write
+CVE-2018-16587,open ticket request system otr x x x attack could send malici email otr system user admin permiss open caus delet arbitrari file otr web server user write access
+CVE-2018-16586,open ticket request system otr x x x attack could send malici email otr system log user open email could caus browser load extern imag css resourc
+CVE-2018-16585,issu discov artifex ghostscript setdistillerkey postscript command accept even though intend use document process e g startup phase lead memori corrupt allow remot attack abl suppli craft postscript crash interpret possibl unspecifi impact
+CVE-2018-16541,artifex ghostscript attack abl suppli craft postscript file could use incorrect free logic pagedevic replac crash interpret
+CVE-2018-16540,artifex ghostscript attack abl suppli craft postscript file builtin pdf convert could use use free copydevic handl crash interpret possibl unspecifi impact
+CVE-2018-16539,artifex ghostscript attack abl suppli craft postscript file could use incorrect access check temp file handl disclos content file system otherwis readabl
+CVE-2018-16513,artifex ghostscript attack abl suppli craft postscript file could use type confus setcolor function crash interpret possibl unspecifi impact
+CVE-2018-16511,issu discov artifex ghostscript type confus ztype could use remot attack abl suppli craft postscript crash interpret possibl unspecifi impact
+CVE-2018-16510,issu discov artifex ghostscript incorrect exec stack handl cs sc pdf primit could use remot attack abl suppli craft pdfs crash interpret possibl unspecifi impact
+CVE-2018-16435,littl cms aka littl color manag system integ overflow allocatedataset function cmscgat c lead heap base buffer overflow setdata function via craft file second argument cmsitloadfromfil
+CVE-2018-16430,gnu libextractor bound read vulner extractor zip extract method zip extractor c
+CVE-2018-16429,gnome glib bound read vulner g markup pars context pars gmarkup c relat utf str
+CVE-2018-16428,gnome glib g markup pars context end pars gmarkup c null pointer derefer
+CVE-2018-16336,exiv intern pngchunk parsetxtchunk exiv v allow remot attack caus denial servic heap base buffer read via craft imag file differ vulner cve
+CVE-2018-16323,readxbmimag coder xbm c imagemagick leav data uniniti process xbm file negat pixel valu affect code use librari load process includ sensit inform inform sometim leak via imag data
+CVE-2018-16152,verifi emsa pkcs signatur gmp rsa public key c gmp plugin strongswan x x rsa implement base gmp reject excess data digestalgorithm paramet field pkcs v signatur verif consequ remot attack forg signatur small public expon use could lead imperson rsa signatur use ikev authent variant cve cve
+CVE-2018-16151,verifi emsa pkcs signatur gmp rsa public key c gmp plugin strongswan x x rsa implement base gmp reject excess data encod algorithm oid pkcs v signatur verif similar flaw version strongswan regard digestalgorithm paramet remot attack forg signatur small public expon use could lead imperson rsa signatur use ikev authent
+CVE-2018-14645,flaw discov hpack decod haproxi use http bound read access hpack valid idx result remot crash denial servic
+CVE-2018-14641,secur flaw found ip frag reasm function net ipv ip fragment c linux kernel rc rc inclus caus later system crash ip fragment certain non default non rare configur victim host attack trigger crash remot thus lead remot denial servic
+CVE-2018-14638,flaw found ds base version process ns slapd crash delet passwdpolici function persist search connect termin unexpect lead remot denial servic
+CVE-2018-14634,integ overflow flaw found linux kernel creat elf tabl function unprivileg local user access suid otherwis privileg binari could use flaw escal privileg system kernel version x x x believ vulner
+CVE-2018-14633,secur flaw found chap server comput md function iscsi target code linux kernel way authent request iscsi initi process unauthent remot attack caus stack buffer overflow smash byte stack attack requir iscsi target enabl victim host depend target code built e depend compil compil flag hardwar architectur attack may lead system crash thus denial servic possibl non author access data export iscsi target due natur flaw privileg escal cannot fulli rule although believ high unlik kernel version x x x believ vulner
+CVE-2018-14625,flaw found linux kernel attack may abl uncontrol read kernel memori within vm guest race condit connect close function may allow attack use af vsock protocol gather byte inform leak possibl intercept corrupt af vsock messag destin client
+CVE-2018-14624,vulner discov ds base version lock control error log correct use open log file log error emerg attack could send flood modif larg dn would caus slapd crash
+CVE-2018-13259,issu discov zsh shebang line exceed charact truncat potenti lead execv call program name substr intend one
+CVE-2018-11781,apach spamassassin fix local user code inject meta rule syntax
+CVE-2018-11780,potenti remot code execut bug exist pdfinfo plugin apach spamassassin
+CVE-2018-10929,flaw found rpc request use gfs creat req glusterf server authent attack could use flaw creat arbitrari file execut arbitrari code glusterf server node
+CVE-2018-10928,flaw found rpc request use gfs symlink req glusterf server allow symlink destin point file path outsid gluster volum authent attack could use flaw creat arbitrari symlink point anywher server execut arbitrari code glusterf server node
+CVE-2018-10927,flaw found rpc request use gfs lookup req glusterf server authent attack could use flaw leak inform execut remot denial servic crash gluster brick process
+CVE-2018-10926,flaw found rpc request use gfs mknod req support glusterf server authent attack could use flaw write file arbitrari locat via path travers execut arbitrari code glusterf server node
+CVE-2018-10923,found mknod call deriv mknod creat file point devic glusterf server node authent attack could use creat arbitrari devic read data devic attach glusterf server node
+CVE-2018-10914,found attack could issu xattr request via glusterf fuse caus gluster brick process crash result remot denial servic gluster multiplex enabl result crash multipl brick gluster volum
+CVE-2018-10913,inform disclosur vulner discov glusterf server attack could issu xattr request via glusterf fuse determin exist file
+CVE-2018-10911,flaw found way dic unseri function glusterf handl negat key length valu attack could use flaw read memori locat store dict valu
+CVE-2018-10907,found glusterf server vulner multipl stack base buffer overflow due function server rpc fopc c alloc fix size buffer use alloca authent attack could exploit mount gluster volum send string longer fix buffer size caus crash potenti code execut
+CVE-2018-10904,found glusterf server proper sanit file path trust io stat dump extend attribut use debug io stat translat attack use flaw creat file execut arbitrari code exploit attack would requir suffici access modifi extend attribut file gluster volum
+CVE-2018-6555,irda setsockopt function net irda af irda c later driver stage irda net af irda c linux kernel allow local user caus denial servic ia object use free system crash possibl unspecifi impact via af irda socket
+CVE-2018-6054,use free webui googl chrome prior allow remot attack potenti exploit heap corrupt via craft chrome extens
+CVE-2018-6053,inappropri implement new tab page googl chrome prior allow local attack view websit thumbnail imag clear browser data via craft html page
+CVE-2018-6052,lack support non standard referr polici valu blink googl chrome prior allow remot attack obtain referr detail web page thought opt send referr data
+CVE-2018-6051,xss auditor googl chrome prior ensur report url origin page allow remot attack obtain referr detail via craft html page
+CVE-2018-6050,incorrect secur ui omnibox googl chrome prior allow remot attack spoof content omnibox url bar via craft html page
+CVE-2018-6048,insuffici polici enforc blink googl chrome prior allow remot attack potenti leak referr inform via craft html page
+CVE-2018-6047,insuffici polici enforc webgl googl chrome prior allow remot attack potenti leak user redirect url via craft html page
+CVE-2018-6046,insuffici data valid devtool googl chrome prior allow remot attack potenti leak user cross origin data via craft chrome extens
+CVE-2018-6045,insuffici polici enforc devtool googl chrome prior allow remot attack potenti leak user local file data via craft chrome extens
+CVE-2018-6043,insuffici data valid extern protocol handler googl chrome prior allow remot attack potenti execut arbitrari program user machin via craft html page
+CVE-2018-6042,incorrect secur ui omnibox googl chrome prior allow remot attack spoof content omnibox url bar via craft html page
+CVE-2018-6041,incorrect secur ui navig googl chrome prior allow remot attack spoof content omnibox url bar via craft html page
+CVE-2018-6039,insuffici data valid devtool googl chrome prior allow remot attack potenti leak user cross origin data via craft chrome extens
+CVE-2018-6038,heap buffer overflow webgl googl chrome prior allow remot attack perform bound memori read via craft html page
+CVE-2018-6037,inappropri implement autofil googl chrome prior allow remot attack obtain autofil data insuffici user gestur via craft html page
+CVE-2018-6036,insuffici data valid v googl chrome prior allow remot attack potenti leak user data via craft html page
+CVE-2018-6035,insuffici polici enforc devtool googl chrome prior allow remot attack potenti leak user local file data via craft chrome extens
+CVE-2018-6034,insuffici data valid webgl googl chrome prior allow remot attack perform bound memori read via craft html page
+CVE-2018-6033,insuffici data valid download googl chrome prior allow remot attack potenti run arbitrari code outsid sandbox via craft chrome extens
+CVE-2018-6032,insuffici polici enforc blink googl chrome prior allow remot attack potenti leak user cross origin data via craft html page
+CVE-2018-6031,use free pdfium googl chrome prior allow remot attack potenti exploit heap corrupt via craft pdf file
+CVE-2018-5391,linux kernel version vulner denial servic attack low rate special modifi packet target ip fragment assembl attack may caus denial servic condit send special craft ip fragment various vulner ip fragment discov fix year current vulner cve becam exploit linux kernel increas ip fragment reassembl queue size
+CVE-2018-0644,buffer overflow ubuntu orca onlin receipt comput advantag panda client p ujma earlier ubuntu orca onlin receipt comput advantag panda client p ujma earlier ubuntu orca onlin receipt comput advantag panda client p ujma earlier allow authent attack caus denial servic dos condit via unspecifi vector
+CVE-2018-0643,ubuntu orca onlin receipt comput advantag panda server p ujma earlier allow attack administr right execut arbitrari os command via unspecifi vector
+CVE-2018-0502,issu discov zsh begin script file mishandl potenti lead execv call program name second line
+CVE-2017-15705,denial servic vulner identifi exist apach spamassassin vulner aris certain unclos tag email caus markup handl incorrect lead scan timeout apach spamassassin use html parser setup object hook begin end tag event handler case open event immedi follow close event even tag close html pars miss text event deal object normal caus care craft email might take scan time expect lead denial servic issu possibl bug design decis html parser specif impact way apach spamassassin use modul poor form html exploit seen wild believ purpos part denial servic attempt concern may attempt abus vulner futur
+CVE-2016-1000030,pidgin version contain vulner x certif import specif due improp check return valu gnutl x crt init gnutl x crt import result code execut attack appear exploit via custom x certif anoth client vulner appear fix
+CVE-2016-7074,issu found powerdn powerdn recursor allow attack posit man middl alter content axfr insuffici valid tsig signatur miss check tsig record last one lead possibl pars record cover tsig signatur
+CVE-2016-7073,issu found powerdn powerdn recursor allow attack posit man middl alter content axfr insuffici valid tsig signatur miss check tsig time fudg valu found axfrretriev lead possibl replay attack
+CVE-2016-7068,issu found powerdn powerdn recursor allow remot unauthent attack caus abnorm cpu usag load powerdn server send craft dns queri might result partial denial servic system becom overload issu base fact powerdn server pars record present queri regardless whether need even legitim special craft queri contain larg number record use take advantag behaviour
+CVE-2018-18873,issu discov jasper null pointer derefer function ras putdatastd ras ras enc c
+CVE-2018-18825,pagoda linux panel v xss via verif code associ invalid account login craft code mishandl render login log
+CVE-2018-18751,issu discov gnu gettext doubl free default add messag read catalog c relat invalid free po gram pars po gram gen demonstr lt msgfmt
+CVE-2018-18718,issu discov gthumb doubl free vulner add theme dir method dlg contact sheet c two success call g free free buffer
+CVE-2018-18710,issu discov linux kernel inform leak cdrom ioctl select disc driver cdrom cdrom c could use local attack read kernel memori cast unsign long int interfer bound check similar cve cve
+CVE-2018-18607,issu discov elf link input bfd elflink c binari file descriptor bfd librari aka libbfd distribut gnu binutil null pointer derefer elf link input bfd use find stt tls symbol without tls section special craft elf allow remot attack caus denial servic demonstr ld
+CVE-2018-18606,issu discov merg string function merg c binari file descriptor bfd librari aka libbfd distribut gnu binutil null pointer derefer bfd add merg section attempt merg section larg align special craft elf allow remot attack caus denial servic demonstr ld
+CVE-2018-18605,heap base buffer read issu discov function sec merg hash lookup merg c binari file descriptor bfd librari aka libbfd distribut gnu binutil bfd add merg section mishandl section merg size multipl entsiz special craft elf allow remot attack caus denial servic demonstr ld
+CVE-2018-18559,linux kernel use free occur due race condit fanout add setsockopt bind af packet socket issu exist feedeaacdcdfbeba incomplet fix race condit code mishandl certain multithread case involv packet bind unregist action follow packet notifi regist action later packet releas oper one two applic link list attack achiev program counter control
+CVE-2018-18557,libtiff jbig enabl decod arbitrarili size jbig buffer ignor buffer size lead tif jbig c jbigdecod bound write
+CVE-2018-18445,linux kernel x x x x x faulti comput numer bound bpf verifi permit bound memori access adjust scalar min max val kernel bpf verifi c mishandl bit right shift
+CVE-2018-18438,qemu integ overflow ioreadhandl associ function use sign integ data type size valu
+CVE-2018-18386,driver tti n tti c linux kernel allow local attack abl access pseudo termin hang block usag pseudo termin devic due extproc versus icanon confus tiocinq
+CVE-2018-18088,openjpeg null pointer derefer red imagetopnm function jp convert c
+CVE-2018-18073,artifex ghostscript allow attack bypass sandbox protect mechan leverag exposur system oper save execut stack error object
+CVE-2018-18065,set key agent helper tabl contain c net snmp null pointer except bug use authent attack remot caus instanc crash via craft udp packet result denial servic
+CVE-2018-18021,arch arm kvm guest c kvm linux kernel arm platform mishandl kvm set reg ioctl exploit attack creat virtual machin attack arbitrarili redirect hypervisor flow control full regist control attack also caus denial servic hypervisor panic via illeg except return occur insuffici restrict userspac access core regist file pstate valid prevent unintend execut mode
+CVE-2018-17977,linux kernel mishandl certain interact among xfrm netlink messag ipproto ah packet ipproto ip packet allow local user caus denial servic memori consumpt system hang leverag root access execut craft applic demonstr cento
+CVE-2018-17972,issu discov proc pid stack function fs proc base c linux kernel ensur root may inspect kernel stack arbitrari task allow local attack exploit raci stack unwind leak kernel task stack content
+CVE-2018-17963,qemu deliv packet iov net net c qemu accept packet size greater int max allow attack caus denial servic possibl unspecifi impact
+CVE-2018-17962,qemu buffer overflow pcnet receiv hw net pcnet c incorrect integ data type use
+CVE-2018-17961,artifex ghostscript earlier allow attack bypass sandbox protect mechan via vector involv errorhandl setup note issu exist incomplet fix cve
+CVE-2018-17958,qemu buffer overflow rtl receiv hw net rtl c incorrect integ data type use
+CVE-2018-17540,gmp plugin strongswan buffer overflow via craft certif
+CVE-2018-16842,curl version vulner heap base buffer read tool msgs c voutf function may result inform exposur denial servic
+CVE-2018-16840,heap use free flaw found curl version code relat close easi handl close clean easi handl curl close function librari code first free struct without null pointer might subsequ erron write struct field within alreadi freed struct
+CVE-2018-16839,curl version vulner buffer overrun sasl authent code may lead denial servic
+CVE-2018-15688,buffer overflow vulner dhcp client systemd allow malici dhcp server overwrit heap memori systemd networkd affect releas systemd version includ
+CVE-2018-15687,race condit chown one systemd allow attack caus systemd set arbitrari permiss arbitrari file affect releas systemd version includ
+CVE-2018-15686,vulner unit deseri systemd allow attack suppli arbitrari state across systemd execut via notifyaccess use improp influenc systemd execut possibl lead root privileg escal affect releas systemd version includ
+CVE-2018-15378,vulner clamav version prior could allow attack caus denial servic dos condit vulner due error relat mew unpack within unmew function libclamav mew c exploit trigger invalid read memori access via special craft exe file
+CVE-2018-14659,gluster file system version vulner denial servic attack via use gf xattr iostat dump key xattr remot authent attack could exploit mount gluster volum repeat call setxattr trigger state dump creat arbitrari number file server runtim directori
+CVE-2018-14656,miss address check caller show opcod linux kernel allow attack dump kernel memori arbitrari kernel address dmesg log
+CVE-2018-14651,found fix cve cve cve cve cve incomplet remot authent attack could use one flaw execut arbitrari code creat arbitrari file caus denial servic glusterf server node via symlink relat path
+CVE-2018-12387,vulner javascript jit compil inlin array prototyp push multipl argument result stack pointer byte bailout leak memori address call function use part exploit insid sandbox content process vulner affect firefox esr firefox
+CVE-2018-12386,vulner regist alloc javascript lead type confus allow arbitrari read write lead remot code execut insid sandbox content process trigger vulner affect firefox esr firefox
+CVE-2018-12385,potenti exploit crash transportsecurityinfo use ssl trigger data store local cach user profil directori issu exploit combin anoth vulner allow attack write data local cach local instal malwar issu also trigger non exploit startup crash user switch night releas version firefox profil use vulner affect thunderbird firefox esr firefox
+CVE-2018-12383,user save password firefox later set master password unencrypt copi password still access older store password file delet data copi new format start firefox new master password ad new file could allow exposur store password data outsid user expect vulner affect firefox firefox esr thunderbird
+CVE-2018-12379,mozilla updat open mar format file contain long item filenam bound write trigger lead potenti exploit crash requir run mozilla updat manual local system malici mar file order occur vulner affect firefox firefox esr thunderbird
+CVE-2018-12378,use free vulner occur indexeddb index delet still use javascript code provid payload valu store result potenti exploit crash vulner affect firefox firefox esr thunderbird
+CVE-2018-12377,use free vulner occur refresh driver timer refresh circumst shutdown timer delet still use result potenti exploit crash vulner affect firefox firefox esr thunderbird
+CVE-2018-12376,memori safeti bug present firefox firefox esr bug show evid memori corrupt presum enough effort could exploit run arbitrari code vulner affect firefox firefox esr thunderbird
+CVE-2018-12375,memori safeti bug present firefox bug show evid memori corrupt presum enough effort could exploit run arbitrari code vulner affect firefox
+CVE-2018-12374,plaintext decrypt email leak user submit embed form press enter key within text input field vulner affect thunderbird
+CVE-2018-12373,ddecrypt mime part hidden css plaintext html tag leak plaintext includ html repli forward vulner affect thunderbird
+CVE-2018-12372,decrypt mime part includ html craft attack leak plaintext includ html repli forward vulner affect thunderbird
+CVE-2018-12370,reader view samesit cooki protect check exit allow payload trigger reader view exit load malici site reader mode activ bypass csrf protect vulner affect firefox
+CVE-2018-12367,previous mitig spectr resolut precis various method reduc counteract abil measur precis time interv work performancenavigationtim adjust found could use precis timer vulner affect thunderbird firefox esr firefox
+CVE-2018-12366,invalid grid size qcms color profil transform result bound read interpret float valu could leak privat data output vulner affect thunderbird thunderbird firefox esr firefox esr firefox
+CVE-2018-12365,compromis ipc child process escap content sandbox list name arbitrari file file system without user consent interact could result exposur privat local file vulner affect thunderbird thunderbird firefox esr firefox esr firefox
+CVE-2018-12364,npapi plugin adob flash send non simpl cross origin request bypass cor make origin post redirect target site allow malici site engag cross site request forgeri csrf attack vulner affect thunderbird thunderbird firefox esr firefox esr firefox
+CVE-2018-12363,use free vulner occur script use mutat event move dom node document result old document held node freed node still pointer referenc result potenti exploit crash vulner affect thunderbird thunderbird firefox esr firefox esr firefox
+CVE-2018-12362,integ overflow occur graphic oper done supplement stream simd extens ssse scaler result potenti exploit crash vulner affect thunderbird thunderbird firefox esr firefox esr firefox
+CVE-2018-12361,integ overflow occur swizzledata code calcul buffer size overflow valu use subsequ graphic comput input sanit result potenti exploit crash vulner affect thunderbird firefox esr firefox
+CVE-2018-12360,use free vulner occur delet input element mutat event handler trigger focus element result potenti exploit crash vulner affect thunderbird thunderbird firefox esr firefox esr firefox
+CVE-2018-12359,buffer overflow occur render canva content adjust height width canva element dynam caus data written outsid current comput boundari result potenti exploit crash vulner affect thunderbird thunderbird firefox esr firefox esr firefox
+CVE-2018-12358,servic worker use redirect avoid taint cross origin resourc instanc allow malici site read respons suppos opaqu vulner affect firefox
+CVE-2018-10933,vulner found libssh server side state machin version malici client could creat channel without first perform authent result unauthor access
+CVE-2018-6559,linux kernel use ubuntu lts ubuntu allow local user obtain name file would normal abl access via overlayf mount insid user namespac
+CVE-2018-5188,memori safeti bug present firefox firefox esr firefox esr bug show evid memori corrupt presum enough effort could exploit run arbitrari code vulner affect thunderbird thunderbird firefox esr firefox esr firefox
+CVE-2018-5187,memori safeti bug present firefox firefox esr bug show evid memori corrupt presum enough effort could exploit run arbitrari code vulner affect thunderbird firefox esr firefox
+CVE-2018-5186,memori safeti bug present firefox bug show evid memori corrupt presum enough effort could exploit run arbitrari code vulner affect firefox
+CVE-2018-5156,vulner occur captur media stream media sourc type chang captur occur result stream data cast wrong type caus potenti exploit crash vulner affect thunderbird firefox esr firefox esr firefox
+CVE-2018-3214,vulner java se java se embed jrockit compon oracl java se subcompon sound support version affect java se u u u java se embed u jrockit r easili exploit vulner allow unauthent attack network access via multipl protocol compromis java se java se embed jrockit success attack vulner result unauthor abil caus partial denial servic partial dos java se java se embed jrockit note vulner appli java deploy typic client run sandbox java web start applic sandbox java applet java se load run untrust code e g code come internet reli java sandbox secur vulner also exploit use api specifi compon e g web servic suppli data api cvss base score avail impact cvss vector cvss av n ac l pr n ui n u c n n l
+CVE-2018-3183,vulner java se java se embed jrockit compon oracl java se subcompon script support version affect java se u java se embed u jrockit r difficult exploit vulner allow unauthent attack network access via multipl protocol compromis java se java se embed jrockit vulner java se java se embed jrockit attack may signific impact addit product success attack vulner result takeov java se java se embed jrockit note vulner appli java deploy typic client run sandbox java web start applic sandbox java applet java se load run untrust code e g code come internet reli java sandbox secur vulner also exploit use api specifi compon e g web servic suppli data api cvss base score confidenti integr avail impact cvss vector cvss av n ac h pr n ui n c c h h h
+CVE-2018-3180,vulner java se java se embed jrockit compon oracl java se subcompon jsse support version affect java se u u u java se embed u jrockit r difficult exploit vulner allow unauthent attack network access via ssl tls compromis java se java se embed jrockit success attack vulner result unauthor updat insert delet access java se java se embed jrockit access data well unauthor read access subset java se java se embed jrockit access data unauthor abil caus partial denial servic partial dos java se java se embed jrockit note vulner appli java deploy typic client run sandbox java web start applic sandbox java applet java se load run untrust code e g code come internet reli java sandbox secur vulner also exploit use api specifi compon e g web servic suppli data api cvss base score confidenti integr avail impact cvss vector cvss av n ac h pr n ui n u c l l l
+CVE-2018-3169,vulner java se java se embed compon oracl java se subcompon hotspot support version affect java se u u java se embed u difficult exploit vulner allow unauthent attack network access via multipl protocol compromis java se java se embed success attack requir human interact person attack vulner java se java se embed attack may signific impact addit product success attack vulner result takeov java se java se embed note vulner appli java deploy typic client run sandbox java web start applic sandbox java applet java se load run untrust code e g code come internet reli java sandbox secur vulner appli java deploy typic server load run trust code e g code instal administr cvss base score confidenti integr avail impact cvss vector cvss av n ac h pr n ui r c c h h h
+CVE-2018-3149,vulner java se java se embed jrockit compon oracl java se subcompon jndi support version affect java se u u u java se embed u jrockit r difficult exploit vulner allow unauthent attack network access via multipl protocol compromis java se java se embed jrockit success attack requir human interact person attack vulner java se java se embed jrockit attack may signific impact addit product success attack vulner result takeov java se java se embed jrockit note vulner appli java deploy typic client run sandbox java web start applic sandbox java applet java se load run untrust code e g code come internet reli java sandbox secur vulner also exploit use api specifi compon e g web servic suppli data api cvss base score confidenti integr avail impact cvss vector cvss av n ac h pr n ui r c c h h h
+CVE-2018-3139,vulner java se java se embed compon oracl java se subcompon network support version affect java se u u u java se embed u difficult exploit vulner allow unauthent attack network access via multipl protocol compromis java se java se embed success attack requir human interact person attack success attack vulner result unauthor read access subset java se java se embed access data note vulner appli java deploy typic client run sandbox java web start applic sandbox java applet java se load run untrust code e g code come internet reli java sandbox secur vulner appli java deploy typic server load run trust code e g code instal administr cvss base score confidenti impact cvss vector cvss av n ac h pr n ui r u c l n n
+CVE-2018-3136,vulner java se java se embed compon oracl java se subcompon secur support version affect java se u u u java se embed u difficult exploit vulner allow unauthent attack network access via multipl protocol compromis java se java se embed success attack requir human interact person attack vulner java se java se embed attack may signific impact addit product success attack vulner result unauthor updat insert delet access java se java se embed access data note vulner appli java deploy typic client run sandbox java web start applic sandbox java applet java se load run untrust code e g code come internet reli java sandbox secur vulner appli java deploy typic server load run trust code e g code instal administr cvss base score integr impact cvss vector cvss av n ac h pr n ui r c c n l n
+CVE-2018-0505,mediawiki contain flaw botpassword bypass centralauth account lock
+CVE-2018-0504,mediawiki contain inform disclosur flaw special redirect logid
+CVE-2018-0503,mediawiki contain flaw contrari document wgratelimit entri user overrid newbi
+CVE-2017-5934,cross site script xss vulner link dialogu gui editor moinmoin allow remot attack inject arbitrari web script html via unspecifi vector
+CVE-2018-19777,artifex mupdf infinit loop function svg dev end tile fitz svg devic c demonstr mutool
+CVE-2018-19543,issu discov jasper heap base buffer read size function jp decod libjasp jp jp dec c
+CVE-2018-19542,issu discov jasper null pointer derefer function jp decod libjasp jp jp dec c lead denial servic
+CVE-2018-19541,issu discov jasper heap base buffer read size function jas imag depalett libjasp base jas imag c
+CVE-2018-19540,issu discov jasper heap base buffer overflow size function jas icctxtdesc input libjasp base jas icc c
+CVE-2018-19539,issu discov jasper access violat function jas imag readcmpt libjasp base jas imag c lead denial servic
+CVE-2018-19497,sleuth kit tsk hfs cat travers tsk fs hfs c proper determin key length larg allow attack caus denial servic segv unknown address read memori access tsk getu call hfs dir open meta cb tsk fs hfs dent c
+CVE-2018-19492,issu discov cairo trm gnuplot issu allow attack conduct buffer overflow arbitrari amount data cairotrm option function flaw caus miss size check argument pass set font function issu occur gnuplot pngcairo termin use backend
+CVE-2018-19491,issu discov post trm gnuplot issu allow attack conduct buffer overflow arbitrari amount data ps option function flaw caus miss size check argument pass set font function issu occur gnuplot postscript termin use backend
+CVE-2018-19490,issu discov datafil c gnuplot issu allow attack conduct heap base buffer overflow arbitrari amount data df generat ascii array entri exploit vulner attack must pass overlong string right bound rang argument pass plot function
+CVE-2018-19477,psi zfjbig c artifex ghostscript allow remot attack bypass intend access restrict jbigdecod type confus
+CVE-2018-19476,psi zicc c artifex ghostscript allow remot attack bypass intend access restrict setcolorspac type confus
+CVE-2018-19407,vcpu scan ioapic function arch x kvm x c linux kernel allow local user caus denial servic null pointer derefer bug via craft system call reach situat ioapic uniniti
+CVE-2018-19406,kvm pv send ipi arch x kvm lapic c linux kernel allow local user caus denial servic null pointer derefer bug via craft system call reach situat apic map uniniti
+CVE-2018-19296,phpmailer x vulner object inject attack
+CVE-2018-19274,pass absolut path file exist check phpbb allow remot code execut object inject employ phar deseri attack access admin control panel founder permiss
+CVE-2018-19216,netwid assembl nasm use free detoken asm preproc c
+CVE-2018-19215,netwid assembl nasm rc heap base buffer read expand mmac param asm preproc c special case charact
+CVE-2018-19214,netwid assembl nasm rc heap base buffer read expand mmac param asm preproc c insuffici input
+CVE-2018-19208,libwpd null pointer derefer function wpcontentlisten definet wpcontentlisten cpp lead denial servic attack relat wpxtabl h
+CVE-2018-19206,step mail func inc roundcub xss via craft use svg style demonstr onload attribut bodi element within html attach
+CVE-2018-19200,issu discov uripars uricommon c allow attempt oper null input via urireseturi function
+CVE-2018-19199,issu discov uripars uriqueri c allow integ overflow via uricomposequeri uricomposequeryex function uncheck multipl
+CVE-2018-19198,issu discov uripars uriqueri c allow bound write via uricomposequeri uricomposequeryex function charact mishandl certain context
+CVE-2018-19149,poppler null pointer derefer poppler attach new call poppler annot file attach get attach
+CVE-2018-19143,open ticket request system otr x x x allow authent user delet file via modifi submiss form upload cach mishandl
+CVE-2018-19141,open ticket request system otr x x allow admin conduct xss attack via modifi url user custom prefer mishandl
+CVE-2018-19060,issu discov poppler null pointer derefer goo goostr h lead denial servic demonstr util pdfdetach cc valid filenam embed file construct save path
+CVE-2018-19059,issu discov poppler bound read embfil save filespec cc lead denial servic demonstr util pdfdetach cc valid embed file save attempt
+CVE-2018-19058,issu discov poppler reachabl abort object h lead denial servic embfil save filespec cc lack stream check save embed file
+CVE-2018-18955,linux kernel x x map write kernel user namespac c allow privileg escal mishandl nest user namespac uid gid rang user cap sys admin affect user namespac bypass access control resourc outsid namespac demonstr read etc shadow occur id transform take place proper namespac kernel direct kernel namespac direct
+CVE-2018-18954,pnv lpc eccb function hw ppc pnv lpc c qemu allow bound write read access powernv memori
+CVE-2018-17477,incorrect dialog placement extens googl chrome prior allow remot attack spoof content extens popup via craft html page
+CVE-2018-17476,incorrect dialog placement cast ui googl chrome prior allow remot attack obscur full screen warn via craft html page
+CVE-2018-17475,incorrect handl histori io navig googl chrome prior allow remot attack spoof content omnibox url bar via craft html page
+CVE-2018-17474,use free htmlimportscontrol blink googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-17473,incorrect handl confus charact omnibox googl chrome prior allow remot attack spoof content omnibox url bar via craft domain name
+CVE-2018-17471,incorrect dialog placement webcont googl chrome prior allow remot attack obscur full screen warn via craft html page
+CVE-2018-17469,incorrect handl pdf filter chain pdfium googl chrome prior allow remot attack perform bound memori read via craft pdf file
+CVE-2018-17468,incorrect handl timer inform navig blink googl chrome prior allow remot attack obtain cross origin url via craft html page
+CVE-2018-17467,insuffici quick clear stale render content navig googl chrome prior allow remot attack spoof content omnibox url bar via craft html page
+CVE-2018-17466,incorrect textur handl angl googl chrome prior allow remot attack perform bound memori read via craft html page
+CVE-2018-17465,incorrect implement object trim v googl chrome prior allow remot attack potenti exploit object corrupt via craft html page
+CVE-2018-17464,incorrect handl histori io navig googl chrome prior allow remot attack spoof content omnibox url bar via craft html page
+CVE-2018-17463,incorrect side effect annot v googl chrome prior allow remot attack execut arbitrari code insid sandbox via craft html page
+CVE-2018-17462,incorrect refcount appcach googl chrome prior allow remot attack perform sandbox escap via craft html page
+CVE-2018-16850,postgresql version vulner sql inject pg upgrad pg dump via creat trigger referenc use purpos craft trigger definit attack caus arbitrari sql statement run superus privileg
+CVE-2018-16844,nginx version vulner implement http allow excess cpu usag issu affect nginx compil ngx http v modul compil default http option listen direct use configur file
+CVE-2018-16843,nginx version vulner implement http allow excess memori consumpt issu affect nginx compil ngx http v modul compil default http option listen direct use configur file
+CVE-2018-14646,linux kernel rc found vulner null pointer derefer bug netlink ns capabl function net netlink af netlink c file local attack could exploit net namespac netnsid assign caus kernel panic denial servic
+CVE-2018-12122,node js version prior node js slowlori http denial servic attack caus denial servic dos send header slowli keep http https connect associ resourc aliv long period time
+CVE-2018-12116,node js version prior node js http request split node js convinc use unsanit user provid unicod data path option http request data provid trigger second unexpect user defin http request made server
+CVE-2018-9516,hid debug event read driver hid hid debug c possibl bound write due miss bound check could lead local escal privileg system execut privileg need user interact need exploit product android version android kernel android id
+CVE-2018-9422,get futex key futex c use free due improp lock could lead local escal privileg addit privileg need user interact need exploit product android version android kernel android id refer upstream kernel
+CVE-2018-9415,driver overrid store driver overrid show bus c possibl doubl free due improp lock could lead local escal privileg system execut privileg need user interact need exploit product android version android kernel android id refer upstream kernel
+CVE-2018-9363,hidp process report bluetooth integ overflow could lead bound write addit execut privileg need user interact need exploit product android version android kernel android id refer upstream kernel
+CVE-2018-6081,xss vulner interstiti googl chrome prior allow attack convinc user instal malici extens open develop consol inject arbitrari script html via craft html page
+CVE-2018-6079,inappropri share textur d array textur d data tab webgl googl chrome prior allow remot attack leak cross origin data via craft html page
+CVE-2018-6078,incorrect handl confus charact omnibox googl chrome prior allow remot attack spoof content omnibox url bar via craft domain name
+CVE-2018-6077,displac map filter appli cross origin imag blink svg render googl chrome prior allow remot attack leak cross origin data via craft html page
+CVE-2018-6076,insuffici encod url fragment identifi blink googl chrome prior allow remot attack perform dom base xss attack via craft html page
+CVE-2018-6075,incorrect handl specifi filenam file download googl chrome prior allow remot attack leak cross origin data via craft html page user interact
+CVE-2018-6074,failur appli mark web download googl chrome prior allow remot attack bypass os level control via craft html page
+CVE-2018-6073,heap buffer overflow webgl googl chrome prior allow remot attack perform bound memori write via craft html page
+CVE-2018-6072,integ overflow lead use free pdfium googl chrome prior allow remot attack potenti exploit heap corrupt via craft pdf file
+CVE-2018-6071,integ overflow skia googl chrome prior allow remot attack perform bound memori read via craft html page
+CVE-2018-6069,stack buffer overflow skia googl chrome prior allow remot attack perform bound memori read via craft html page
+CVE-2018-6068,object lifecycl issu chrome custom tab googl chrome prior allow remot attack spoof content omnibox url bar via craft html page
+CVE-2018-6067,incorrect ipc serial skia googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-6066,lack cor check resourcefetch resourceload blink googl chrome prior allow remot attack leak cross origin data via craft html page
+CVE-2018-6065,integ overflow comput requir alloc size instanti new javascript object v googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-6064,type confus implement definegett v googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-6063,incorrect use mojo wrapsharedmemoryhandl mojo googl chrome prior allow remot attack compromis render process perform bound memori write via craft html page
+CVE-2018-6062,heap overflow write skia googl chrome prior allow remot attack perform bound memori write via craft html page
+CVE-2018-6061,race handl sharedarraybuff webassembl googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-6060,use free webaudio googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-5407,simultan multi thread smt processor enabl local user exploit softwar vulner time attack via side channel time attack port content
+CVE-2014-10077,hashslic lib in core ext hash rb in gem rubi allow remot attack caus denial servic applic crash via call situat key present keep key present hash
+CVE-2018-18359,incorrect handl reflect construct v googl chrome prior allow remot attack perform bound memori read via craft html page
+CVE-2018-18357,incorrect handl confus charact url formatt googl chrome prior allow remot attack spoof content omnibox url bar via craft domain name
+CVE-2018-18356,integ overflow path handl lead use free skia googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-18355,incorrect handl confus charact url formatt googl chrome prior allow remot attack spoof content omnibox url bar via craft domain name
+CVE-2018-18354,insuffici valid extern protocol shell integr googl chrome window prior allow remot attack launch extern program via craft html page
+CVE-2018-18351,lack proper valid ancestor frame site send lax cooki navig googl chrome prior allow remot attack bypass samesit cooki polici via craft html page
+CVE-2018-18348,incorrect handl bidirect domain name rtl charact omnibox googl chrome prior allow remot attack spoof content omnibox url bar via craft domain name
+CVE-2018-18347,incorrect handl fail navig invalid url navig googl chrome prior allow remot attack trick user execut javascript arbitrari origin via craft html page
+CVE-2018-18346,incorrect handl alert box display blink googl chrome prior allow remot attack present confus browser ui via craft html page
+CVE-2018-18343,incorrect hand path lead use free skia googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-18342,execut user suppli javascript object deseri updat object length lead bound write v googl chrome prior allow remot attack execut arbitrari code insid sandbox via craft html page
+CVE-2018-18341,integ overflow lead heap buffer overflow blink googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-18340,incorrect object lifecycl mediarecord googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-18339,incorrect object lifecycl webaudio googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-18338,incorrect thread unsaf use skimag canva googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-18337,incorrect handl stylesheet lead use free blink googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-18336,incorrect object lifecycl pdfium googl chrome prior allow remot attack potenti exploit heap corrupt via craft pdf file
+CVE-2018-18335,heap buffer overflow skia googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-17481,incorrect object lifecycl pdfium googl chrome prior allow remot attack potenti exploit heap corrupt via craft pdf file
+CVE-2018-17480,execut user suppli javascript array deseri lead bound write v googl chrome prior allow remot attack execut arbitrari code insid sandbox via craft html page
+CVE-2018-6116,nullptr derefer webassembl googl chrome prior allow remot attack potenti perform bound memori access via craft html page
+CVE-2018-6115,inappropri set see mask flag ui flag file download googl chrome prior allow remot attack potenti bypass os malwar check via craft html page
+CVE-2018-6103,stagnant permiss prompt prompt googl chrome prior allow remot attack bypass permiss polici via craft html page
+CVE-2018-6102,miss confus charact internation googl chrome prior allow remot attack spoof content omnibox url bar via craft domain name
+CVE-2018-6101,lack host valid devtool googl chrome prior allow remot attack execut arbitrari code via craft html page user run remot devtool debug server
+CVE-2018-6099,lack cor check blink googl chrome prior allow remot attack leak limit cross origin data via craft html page
+CVE-2018-6095,inappropri dismiss file picker keyboard event blink googl chrome prior allow remot attack read local file via craft html page
+CVE-2018-6094,inlin metadata garbagecollect googl chrome prior allow remot attack potenti exploit heap corrupt via craft html page
+CVE-2018-6092,integ overflow bit system webassembl googl chrome prior allow remot attack execut arbitrari code insid sandbox via craft html page
+CVE-2018-6090,integ overflow lead heap buffer overflow skia googl chrome prior allow remot attack execut arbitrari code insid sandbox via craft html page
+CVE-2018-6089,lack cor check servic worker redirect cross origin pdf servic worker googl chrome prior allow remot attack leak limit cross origin data via craft html page
+CVE-2018-6088,iter invalid bug pdfium googl chrome prior allow remot attack execut arbitrari code insid sandbox via craft pdf file
+CVE-2018-6087,use free webassembl googl chrome prior allow remot attack execut arbitrari code insid sandbox via craft html page
+CVE-2018-6086,doubl evict incognito mode cach lead user free network disk cach googl chrome prior allow remot attack execut arbitrari code via craft html page
+CVE-2018-6085,entri destructor network disk cach googl chrome prior allow remot attack execut arbitrari code via craft html page
